@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link, useNavigate } from 'react-router-dom';
+import test from "../Images/CineTec.jpg"
+
 
 function Login() {
   const [username, setUsername] = useState('');
@@ -16,19 +18,42 @@ function Login() {
     }
   };
 
+  // Verificación del usuario y contraseña del admin
   const handleSubmit = () => {
     if (username === 'admin' && password === 'admin') {
       console.log('FELICIDADES HACKEO EL SISTEMA');
       navigate('/AdminView');
     } else {
       console.log('Credenciales incorrectas');
-      navigate('/ClientView');
+      // navigate('/ClientView');
     }
   };
 
+  const handleButtonClick = () => {
+    console.log('SOY UN BOTÓN');
+    navigate('/ClientView');
+  };
+
   return (
-    <div>
-      <h1>Login VIEW!!!!usuario y contra es "admin"</h1>
+    <div 
+      style={{
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        minHeight: '100vh',
+      }}
+    > 
+    <img src={test} 
+              alt="CineTec" 
+              class = "rounded mx-auto d-block"
+              className="img-thumbnail" 
+              style={{ border: 'none' }}/>
+   
+     
+     
+
+      <h1>Login VIEW!!!! Usuario y contraseña son "admin"</h1>
       <div>
         <label htmlFor="username">Usuario:</label>
         <input
@@ -49,7 +74,9 @@ function Login() {
           onChange={handleInputChange}
         />
       </div>
-      <button className="btn btn-dark" onClick={handleSubmit}>Iniciar Sesión</button>
+      <button className="btn btn-dark" onClick={handleSubmit}>
+        Iniciar Sesión
+      </button>
     </div>
   );
 }
