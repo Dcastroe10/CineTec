@@ -4,7 +4,10 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Login_view from './vistas/Login';
 import Admin_view from './vistas/Admin_view';
 import Client_view from './vistas/Client_view';
-import Register_view from './vistas/Registro';
+import Register_view from './vistas/MovieRegister';
+import Sucursal_view from './vistas/SucursalRegister';
+import Sala_view from './vistas/SalaRegister';
+import Proyection_view from './vistas/ProyectionRegister';
 
 function App() {
   return (
@@ -46,6 +49,10 @@ function App() {
           <Route path="/Login" element={<Login_view />} />
           <Route path="/AdminView" element={<Admin_view />} />
           <Route path="/MovieRegister" element={<Register_view />} />
+          <Route path="/SucursalRegister" element={<Sucursal_view />} />
+          <Route path="/SalaRegister" element={<Sala_view />} />
+          <Route path="/ProyectionRegister" element={<Proyection_view />} />
+
           
         </Routes>
       </div>

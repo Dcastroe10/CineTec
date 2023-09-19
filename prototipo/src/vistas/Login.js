@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link, useNavigate } from 'react-router-dom';
-import test from "../Images/CineTec.jpg"
+
 
 
 function Login() {
@@ -44,11 +44,7 @@ function Login() {
         minHeight: '100vh',
       }}
     > 
-    <img src={test} 
-              alt="CineTec" 
-              class = "rounded mx-auto d-block"
-              className="img-thumbnail" 
-              style={{ border: 'none' }}/>
+    
    
      
      

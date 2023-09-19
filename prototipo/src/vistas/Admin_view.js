@@ -29,43 +29,43 @@ function Admin_view() {
           onClick={() => {
           
             navigate('/MovieRegister');
-            console.log('Primer botón presionado');
           }}
         >
           Registro Películas
         </button>
+
         <button
           className="btn btn-warning" a
           onClick={() => {
-          
-            console.log('Segundo botón presionado');
+            navigate('/SucursalRegister');
           }}
           style={{ marginLeft: '10px' }}
         >
           Registro Sucursales
         </button>
+
       </div>
 
       <div style={{ marginTop: '20px' }}>
         <button
           className="btn btn-warning" 
           onClick={() => {
-          
-            console.log('Primer botón presionado');
+            navigate('/SalaRegister');
           }}
         >
           Registro Salas
         </button>
+
         <button
           className="btn btn-warning" 
           onClick={() => {
-            
-            console.log('Segundo botón presionado');
+            navigate('/ProyectionRegister');
           }}
           style={{ marginLeft: '10px' }}
         >
           Asignar Proyecciones
         </button>
+        
       </div>
 
 

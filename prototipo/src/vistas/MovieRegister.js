@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link, useNavigate } from 'react-router-dom';
 
 
-function Registro() {
+function MovieRegister() {
   const [nombreOriginal, setNombreOriginal] = useState('');
   const [nombreComercial, setNombreComercial] = useState('');
   const [duracion, setDuracion] = useState('');
@@ -34,7 +34,7 @@ function Registro() {
 //Poner función de agregar a la DB
   const handleButtonClick = () => {
     console.log('Agregué películaaa');
-    //AGREGAR AL JSON
+    //AGREGAR MOVIE AL JSON
     window.alert('¡Se agregó exitosamente!');
     navigate('/AdminView');
    
@@ -74,6 +74,17 @@ function Registro() {
           onChange={handleInputChange}
         />
       </div>
+      
+      <div class="input-group mb-3" style={{justifyContent: 'center'}}>
+        <div class="input-group-prepend">
+          <span class="input-group-text">Subir Imagen</span>
+        </div>
+        <div class="custom-file">
+          <input type="file" class="custom-file-input" id="inputGroupFile01"></input>
+        </div>
+      </div>
+
+      
       <div>
         <label htmlFor="duracion">Duración:</label>
         <input
@@ -121,4 +132,4 @@ function Registro() {
   );
 }
 
-export default Registro;
+export default MovieRegister;
