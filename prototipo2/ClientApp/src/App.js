@@ -44,6 +44,7 @@ function App() {
       </nav>
       <div className="container">
         <Routes>
+          <Route path="/" element={<Client_view />} />
           <Route path="/ClientView" element={<Client_view />} />
           <Route path="/CineTec_Prototipo" element={<Client_view />} />
           <Route path="/Login" element={<Login_view />} />
