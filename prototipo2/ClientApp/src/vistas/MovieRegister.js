@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link, useNavigate } from 'react-router-dom';
+import axios from 'axios';
 
 
 function MovieRegister() {
@@ -30,15 +31,26 @@ function MovieRegister() {
     }
   };
 
+  const pelicula = {
+    NombreOriginal: nombreOriginal,
+    NombreComercial: nombreComercial,
+    Duracion: duracion,
+    Protagonista: protagonistas,
+    Clasificacion: clasificacion,
+    director: director,
+  };
+
 
 //Poner función de agregar a la DB
   const handleButtonClick = () => {
-    console.log('Agregué películaaa');
-    //AGREGAR MOVIE AL JSON
-    window.alert('¡Se agregó exitosamente!');
-    navigate('/AdminView');
-   
-    
+    const peli = JSON.stringify(pelicula);
+    axios.post('http://localhost:5048/api/MiControlador/RecibirPelicula', peli).then(response => {console.log(response)});
+    //fs.writeFile("./BaseDeDatos.json", peli, (error) => {
+    //  if (error){console.error(error); throw error}
+    //  console.log("BaseDeDatos.json fue escrito correctamente")
+    //});
+    //console.log(pelicula);
+    navigate('/AdminView');  
   };
 
   return (

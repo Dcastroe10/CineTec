@@ -8,7 +8,7 @@ import Register_view from './vistas/MovieRegister';
 import Sucursal_view from './vistas/SucursalRegister';
 import Sala_view from './vistas/SalaRegister';
 import Proyection_view from './vistas/ProyectionRegister';
-
+ 
 function App() {
   return (
     <Router>

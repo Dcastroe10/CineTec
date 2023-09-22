@@ -49,7 +49,7 @@ function Login() {
      
      
 
-      <h1>Login VIEW!!!! Usuario y contraseña son "admin"</h1>
+      <h1>Iniciar Sesión como Administrador</h1>
       <div>
         <label htmlFor="username">Usuario:</label>
         <input
