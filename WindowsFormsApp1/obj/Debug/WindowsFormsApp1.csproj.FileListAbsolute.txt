@@ -1,0 +1,16 @@
+C:\Users\noemi\Desktop\Prueba\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\noemi\Desktop\Prueba\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\noemi\Desktop\Prueba\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\noemi\Desktop\Prueba\WindowsFormsApp1\bin\Debug\PdfSharp.Charting.dll
+C:\Users\noemi\Desktop\Prueba\WindowsFormsApp1\bin\Debug\PdfSharp.dll
+C:\Users\noemi\Desktop\Prueba\WindowsFormsApp1\bin\Debug\PdfSharp.xml
+C:\Users\noemi\Desktop\Prueba\WindowsFormsApp1\bin\Debug\PdfSharp.Charting.xml
+C:\Users\noemi\Desktop\Prueba\WindowsFormsApp1\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\noemi\Desktop\Prueba\WindowsFormsApp1\bin\Debug\de\PdfSharp.Charting.resources.dll
+C:\Users\noemi\Desktop\Prueba\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\noemi\Desktop\Prueba\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\noemi\Desktop\Prueba\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\noemi\Desktop\Prueba\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\noemi\Desktop\Prueba\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\noemi\Desktop\Prueba\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\noemi\Desktop\Prueba\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
