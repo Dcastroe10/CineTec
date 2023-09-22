@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CineTEC</string>
+
+    <string name="instruccion1">Seleccione su cine:</string>
+    <string name="sucursal1">Sede Cartago</string>
+    <string name="sucursal2">Sede Alajuela</string>
+    <string name="sucursal3">Sede San Jose</string>
+    <string name="sucursal4">Sede San Carlos</string>
+
+    <string name="instruccion2">Seleccione su pelicula:</string>
+    <string name="peli1">Sound of Freedom</string>
+    <string name="peli2">La Monja 2</string>
+    <string name="peli3">Contrarreloj</string>
+    <string name="peli4">Caceria en Venecia</string>
+
+    <string name="instruccion3">Proyecciones disponibles:</string>
+    <string name="proyeccion1">9:00am</string>
+    <string name="proyeccion2">12:00pm</string>
+    <string name="proyeccion3">3:00pm</string>
+    <string name="proyeccion4">6:00pm</string>
+
+</resources>
